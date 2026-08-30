@@ -26,9 +26,6 @@ class TodoApp extends StatelessWidget {
         inputDecorationTheme: const InputDecorationTheme(
           filled: true,
         ),
-        cardTheme: const CardThemeData(
-          margin: EdgeInsets.zero,
-        ),
       ),
       home: const TaskHomePage(),
     );
