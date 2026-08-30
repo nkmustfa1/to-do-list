@@ -57,8 +57,10 @@ class TaskTile extends StatelessWidget {
               switch (action) {
                 case TaskAction.edit:
                   onEdit();
+                  break;
                 case TaskAction.delete:
                   onDelete();
+                  break;
               }
             },
             itemBuilder: (context) => const [
